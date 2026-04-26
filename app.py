@@ -92,7 +92,7 @@ if uploaded_file is not None:
 # Load default dataset if none loaded
 if st.session_state.df is None:
     try:
-        df = pd.read_csv("PAASE Dataset.csv", header=3)
+        df = pd.read_csv("PAASE Dataset.csv", header=0)
         df.drop(columns=["item_no", "remarks"], inplace=True, errors='ignore')
         st.session_state.df = df
         st.session_state.filename = "PAASE Dataset.csv (default)"
