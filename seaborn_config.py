@@ -21,7 +21,7 @@ INFO_COLOR = "#F77F00"        # Orange
 NEUTRAL_COLOR = "#6C757D"     # Gray
 
 # Color maps for continuous data
-CONTINUOUS_CMAP = "coolwarm"  # Options: "viridis", "coolwarm", "RdYlBu", "plasma"
+CONTINUOUS_CMAP = "viridis"  # Options: "viridis", "coolwarm", "RdYlBu", "plasma"
 DIVERGING_CMAP = "RdBu_r"    # For diverging data (positive/negative)
 
 # ============================================================================
